@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://instant-image-host.onrender.com/sitemap.xml
