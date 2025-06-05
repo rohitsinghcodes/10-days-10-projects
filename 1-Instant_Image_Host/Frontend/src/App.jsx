@@ -46,9 +46,10 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-r from-indigo-300 via-purple-300 to-red-300 flex items-center justify-center p-6">
       <div className="bg-white bg-opacity-90 backdrop-blur-md rounded-3xl shadow-2xl p-8 max-w-lg w-full">
-        <h1 className="text-5xl font-extrabold text-center mb-8 p-4 text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 via-indigo-500 to-purple-600 tracking-widest shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl">
-          Image Uploader  🚀
+        <h1 className="text-3xl sm:text-4xl md:text-5xl p-4 lg:text-6xl font-extrabold text-center mb-8 px-2 sm:px-4 text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 via-indigo-500 to-purple-600 tracking-widest shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl">
+          Image Uploader 🚀
         </h1>
+
 
         <label
           htmlFor="file-upload"
@@ -105,27 +106,30 @@ export default function App() {
             <label className="block mb-2 font-semibold text-indigo-700 text-lg">
               Image URL:
             </label>
-            <div className="flex">
+
+            <div className="flex flex-col sm:flex-row sm:items-center gap-2">
               <input
                 type="text"
                 readOnly
                 value={imageURL}
-                className="flex-1 px-4 py-2 rounded-l-lg border border-indigo-400 focus:outline-indigo-500"
+                className="w-full sm:flex-1 px-4 py-2 rounded-lg border border-indigo-400 focus:outline-indigo-500"
               />
               <button
                 onClick={copyToClipboard}
-                className="bg-indigo-600 hover:bg-indigo-700 text-white px-5 rounded-r-lg font-semibold transition"
+                className="w-full sm:w-auto bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2 rounded-lg font-semibold transition"
               >
                 {copy}
               </button>
             </div>
+
             <img
               src={imageURL}
               alt="Uploaded"
-              className="mt-6 w-full rounded-lg shadow-md object-contain max-h-96 mx-auto"
+              className="mt-6 w-full max-h-96 object-contain rounded-lg shadow-md"
             />
           </div>
         )}
+
       </div>
     </div>
   );
