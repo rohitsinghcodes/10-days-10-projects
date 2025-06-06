@@ -7,7 +7,7 @@ Built with HTML, CSS, and JavaScript.
 
 ## 🔗 Live Site
 
-👉 [https://instant-qr-code.onrender.com](https://instant-qr-code.onrender.com)
+👉 [Live](https://qrcodegenerator-zj9j.onrender.com/)
 
 ---
 
