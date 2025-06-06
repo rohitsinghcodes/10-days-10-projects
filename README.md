@@ -33,7 +33,7 @@ Each project is unique and built with love 💻❤️
 ## 🧑‍💻 Author
 
 **Rohit Singh**  
-🔗 [Linkedin](https://linkedin.com/in/rohitsinghcode) | 🧵 [Twitter](https://twitter.com/rohitsinghcodes) | [portfolio](https://rohitsinghcodes-portfolio.onrender.com/)
+🔗 [Linkedin](https://linkedin.com/in/rohitsinghcodes) | 🧵 [Twitter](https://twitter.com/rohitsinghcodes) | [portfolio](https://rohitsinghcodes-portfolio.onrender.com/)
 
 ---
 
