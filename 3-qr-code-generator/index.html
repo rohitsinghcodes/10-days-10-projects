@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QR Code Generator | Instant QR by Rohit Singh</title>
+  <meta name="description" content="Generate instant QR codes for your text or URL. Download your QR easily. Built by Rohit Singh." />
+  <meta name="keywords" content="QR code, QR generator, instant QR, free QR code maker, QR download, Rohit Singh" />
+  <meta name="author" content="Rohit Singh" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Instant QR Code Generator by Rohit Singh" />
+  <meta property="og:description" content="Generate and download custom QR codes instantly for free." />
+  <meta property="og:image" content="https://x.com/rohitsinghcodes/status/1918341574737424653/photo/1" />
+  <meta property="og:url" content="https://rohitsinghcodes-portfolio.onrender.com/" />
+  <meta property="og:url" content="https://qrcodegenerator.onrender.com/" />
+  <meta property="og:type" content="website" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./favicon/favicon.png" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <p>Enter your text or URL</p>
+    <input type="text" placeholder="Text or URL" id="qrText" />
+    
+    <div id="imgBox">
+      <img src="" id="qrImage" />
+    </div>
+
+    <button onclick="generateQR()">Generate QR Code</button>
+    <button id="downloadBtn" onclick="downloadQR()" style="display: none;">Download QR Code</button>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
