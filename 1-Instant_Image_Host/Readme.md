@@ -17,9 +17,3 @@ Check out the live project here: [Live](https://instant-image-host.onrender.com)
 - **Backend:** Node.js, Express.js
 - **Image Storage:** Cloudinary (or your chosen cloud storage)
 - **Deployment:** Render
-
-## Installation
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/rohitsinghcodes/instant-image-host.git
