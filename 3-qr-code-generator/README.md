@@ -23,9 +23,3 @@ Built with HTML, CSS, and JavaScript.
 ---
 
 ## 🚀 Getting Started
-
-### Clone the repo
-
-```bash
-git clone https://github.com/rohitsinghcodes/qr-code-generator.git
-cd qr-code-generator
