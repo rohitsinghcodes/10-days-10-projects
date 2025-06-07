@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description"
+        content="Generate instant QR codes for your text or URL. Download your QR easily. Built by Rohit Singh." />
+    <meta name="keywords" content="QR code, QR generator, instant QR, free QR code maker, QR download, Rohit Singh" />
+    <meta name="author" content="Rohit Singh" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Instant QR Code Generator by Rohit Singh" />
+    <meta property="og:description" content="Generate and download custom QR codes instantly for free." />
+    <meta property="og:image" content="https://x.com/rohitsinghcodes/status/1918341574737424653/photo/1" />
+    <meta property="og:url" content="https://rohitsinghcodes-portfolio.onrender.com/" />
+    <meta property="og:url" content="https://weather-dashboard.onrender.com/" />
+    <meta property="og:type" content="website" />
+
+    <!-- <link rel="icon" type="image/png" href="photo/The-Sun-thumbnail-c8d6c09.jpg"> -->
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather Dashboard</h1>
+            <div class="search-container">
+                <input type="text" id="submit" name="query" placeholder="Enter city...">
+                <button onclick="OnClickFatch()">Search</button>
+            </div>
+        </header>
+
+        <main>
+            <div class="weather-card">
+                <div class="location"></div>
+                <div class="day">Now</div>
+                <div class="temperature"></div>
+                <div class="minmax">
+                    <div>Min <span class="min"></span></div>
+                    <div>Max <span class="max"></span></div>
+                </div>
+                <div class="details">
+                    <div>Humidity: <span id="humidity"></span></div>
+                    <div>Wind Speed: <span id="wind-speed"></span></div>
+                </div>
+            </div>
+
+            <div class="forecast-days">
+                <div id="day1" onclick="ondays('day1')"><sub></sub><b>Today</b><sub></sub></div>
+                <div id="day2" onclick="ondays('day2')"><sub></sub><b>Tomorrow</b><sub></sub></div>
+                <div id="day3" onclick="ondays('day3')"><sub></sub><b>Day 3</b><sub></sub></div>
+                <div id="day4" onclick="ondays('day4')"><sub></sub><b>Day 4</b><sub></sub></div>
+                <div id="day5" onclick="ondays('day5')"><sub></sub><b>Day 5</b><sub></sub></div>
+            </div>
+        </main>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>

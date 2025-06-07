@@ -1,0 +1,7 @@
+# 10-days-10-projects/.gitignore
+
+**/node_modules/
+**/.env
+**/dist/
+**/build/
+**/.DS_Store
