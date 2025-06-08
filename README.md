@@ -14,7 +14,7 @@ Each project is unique and built with love 💻❤️
 | 2   | PDF to DOCX Converter        | Convert PDFs to editable DOCX      | Flask, Python, LibreOffice        | [Live 🔗](https://pdftodocsconvertor.onrender.com)   |
 | 3   | QR Code Generator            | Create QR codes from text/URL      | Html, Css, Js                     | [Live 🔗](https://qrcodegenerator-zj9j.onrender.com/)|
 | 3   | Weather App                  | Weather App Using api              | Html, Css, Js                     | [Live 🔗](https://weather-dashboard-wnzt.onrender.com)|
-| 3   | Image to pdf                 | Create pdf with image              | Python, Flask, Pillow, React      | [Live 🔗](https://image-to-pfd.onrender.com/)        |
+| 3   | Image to pdf                 | Create pdf with image              | Python, Flask, Pillow, React      | [Live 🔗](https://image-to-pdf.onrender.com/)        |
 ---
 
 ## 🧠 Why This Challenge?

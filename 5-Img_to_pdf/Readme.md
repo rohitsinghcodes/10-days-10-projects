@@ -12,7 +12,7 @@ Built with:
 ## Live Demo
 
 Check out the live version of the app here: 
-[Live](https://image-to-pfd.onrender.com/)
+[Live](https://image-to-pdf.onrender.com/)
 
 ---
 
