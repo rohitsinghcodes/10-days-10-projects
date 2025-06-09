@@ -2,4 +2,8 @@ Flask==2.3.3
 Flask-Cors==4.0.0
 Pillow==10.3.0
 reportlab==4.0.8
+<<<<<<< HEAD
 gunicorn==21.2.0
+=======
+gunicorn==21.2.0
+>>>>>>> 18e5af200a11636e1e7ecf631c4fc1e6e5407e1a

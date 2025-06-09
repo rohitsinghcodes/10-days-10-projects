@@ -152,3 +152,7 @@ def download_pdf(filename):
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))
+<<<<<<< HEAD
+=======
+
+>>>>>>> 18e5af200a11636e1e7ecf631c4fc1e6e5407e1a
