@@ -13,7 +13,7 @@ export const metadata = {
   openGraph: {
     title: 'Todo List App | Rohit Singh',
     description: 'Organize your tasks with this stylish and fully functional Todo List built using Next.js 15 and Tailwind CSS.',
-    url: 'https://your-domain.com',
+    url: 'https://todo-list-daily-task.onrender.com/',
     siteName: 'Todo List App',
     images: [
       {
