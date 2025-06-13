@@ -130,6 +130,19 @@ export default function App() {
           </div>
         )}
 
+        <p className="text-center mt-6 text-black-700 font-medium text-sm">
+          Made by{" "}
+          <a
+            href="https://rohitsinghcodes-portfolio.onrender.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-indigo-900 font-semibold underline hover:text-indigo-600 transition"
+          >
+            Rohit Singh
+          </a>
+        </p>
+
+
       </div>
     </div>
   );

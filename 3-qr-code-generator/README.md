@@ -8,6 +8,7 @@ Built with HTML, CSS, and JavaScript.
 ## 🔗 Live Site
 
 👉 [Live](https://qrcodegenerator-zj9j.onrender.com/)
+📁 [Portfolio Link](https://rohitsinghcodes-portfolio.onrender.com/)
 
 ---
 

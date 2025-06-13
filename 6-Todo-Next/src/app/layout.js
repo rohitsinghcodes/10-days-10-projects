@@ -34,6 +34,37 @@ export default function RootLayout({ children }) {
       <head />
       <body className="bg-gray-100 text-gray-800">
         <main className="min-h-screen p-4 max-w-2xl mx-auto">{children}</main>
+        {/* Footer */}
+        <footer className="fixed bottom-4 right-4 bg-white shadow-md rounded-xl p-3 text-sm flex flex-col items-center gap-3 z-50">
+          <p>
+            Made by{' '}
+            <a
+              href="https://rohitsinghcodes-portfolio.onrender.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 font-medium hover:underline"
+            >
+              Rohit Singh
+            </a>
+          </p>
+          <div className="flex gap-2">
+            <a href="https://linkedin.com/in/rohitsinghcodes" target="_blank" aria-label="LinkedIn">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" className="w-5 h-5" />
+            </a>
+            <a href="https://github.com/rohitsinghcodes" target="_blank" aria-label="GitHub">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" className="w-5 h-5" />
+            </a>
+            <a href="https://x.com/rohitsinghcodes" target="_blank" aria-label="X">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/x.svg" alt="X" className="w-5 h-5" />
+            </a>
+            <a href="https://facebook.com/rohitsinghcodes" target="_blank" aria-label="Facebook">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg" alt="Facebook" className="w-5 h-5" />
+            </a>
+            <a href="https://instagram.com/rohitsinghcodes" target="_blank" aria-label="Instagram">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram" className="w-5 h-5" />
+            </a>
+          </div>
+        </footer>
       </body>
     </html>
   );

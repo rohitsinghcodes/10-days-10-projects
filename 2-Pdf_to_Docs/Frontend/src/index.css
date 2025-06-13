@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Inter', 'Segoe UI', sans-serif;
-  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  background: linear-gradient(135deg, #fdfbfb );
   color: #222;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -168,5 +168,89 @@ h1 {
     font-size: 1rem;
     padding: 0.65rem 1.8rem;
     margin-top: 1.8rem;
+  }
+}
+
+/* Footer */
+.bottom-right-footer {
+  position: fixed;
+  bottom: 12px;
+  right: 16px;
+  background: #ffffffcc; /* semi-transparent white */
+  backdrop-filter: blur(6px);
+  padding: 12px 18px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  font-size: 0.95rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.bottom-right-footer a {
+  color: #6366f1; /* slate-800 */
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.bottom-right-footer a:hover {
+  /* color: #1114cd; indigo-500 */
+  transform: scale(1.1);
+}
+
+/* Social icon wrapper */
+.social-icons {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* Social icons using Lucide or similar */
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f1f5f9;
+  padding: 6px;
+  border-radius: 50%;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  background: #668aff;
+  transform: scale(1.1);
+}
+
+.social-icons svg {
+  width: 20px;
+  height: 20px;
+  color: #334155; /* slate-700 */
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+  .bottom-right-footer {
+    font-size: 0.85rem;
+    right: 10px;
+    left: 10px;
+    bottom: 10px;
+    padding: 10px 14px;
+    border-radius: 14px;
+  }
+
+  .social-icons {
+    gap: 10px;
+  }
+
+  .social-icons svg {
+    width: 18px;
+    height: 18px;
   }
 }
