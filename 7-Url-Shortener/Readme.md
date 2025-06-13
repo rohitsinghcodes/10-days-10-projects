@@ -4,7 +4,7 @@ A simple, fast, and free URL shortening web app built using **Node.js (Express)*
 
 ## 🚀 Live Demo
 
-🌐 [Visit the live project](https://url-shortener.onrender.com/)  
+🌐 [Visit the live project](https://url-shortener-q6nt.onrender.com/)  
 📁 [Portfolio Link](https://rohitsinghcodes-portfolio.onrender.com/)
 
 ---

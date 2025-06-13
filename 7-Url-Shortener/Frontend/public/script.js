@@ -9,7 +9,7 @@ async function shortenUrl() {
   }
 
   try {
-    const response = await fetch('http://localhost:5000/api/shorten', {
+    const response = await fetch('https://rohit-shorted-url.onrender.com/api/shorten', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ originalUrl: longUrl })
