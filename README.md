@@ -8,15 +8,16 @@ Each project is unique and built with love 💻❤️
 
 ## 📅 Projects Overview
 
-| Day | Project Name                 | Description                        | Tech Stack                        | Live Link                                            |
-|-----|------------------------------|------------------------------------|-----------------------------------|------------------------------------------------------|
-| 1   | Instant Image Host           | Upload & share images instantly    | React, Node.js, Cloudinary        | [Live 🔗](https://instant-image-host.onrender.com)   |
-| 2   | PDF to DOCX Converter        | Convert PDFs to editable DOCX      | Flask, Python, LibreOffice        | [Live 🔗](https://pdftodocsconvertor.onrender.com)   |
-| 3   | QR Code Generator            | Create QR codes from text/URL      | Html, Css, Js                     | [Live 🔗](https://qrcodegenerator-zj9j.onrender.com/)|
+| Day | Project Name                 | Description                        | Tech Stack                        | Live Link                                             |
+|-----|------------------------------|------------------------------------|-----------------------------------|-------------------------------------------------------|
+| 1   | Instant Image Host           | Upload & share images instantly    | React, Node.js, Cloudinary        | [Live 🔗](https://instant-image-host.onrender.com)    |
+| 2   | PDF to DOCX Converter        | Convert PDFs to editable DOCX      | Flask, Python, LibreOffice        | [Live 🔗](https://pdftodocsconvertor.onrender.com)    |
+| 3   | QR Code Generator            | Create QR codes from text/URL      | Html, Css, Js                     | [Live 🔗](https://qrcodegenerator-zj9j.onrender.com/) |
 | 4   | Weather App                  | Weather App Using api              | Html, Css, Js                     | [Live 🔗](https://weather-dashboard-wnzt.onrender.com)|
 | 5   | Image to pdf                 | Create pdf with image              | Python, Flask, Pillow, React      | [Live 🔗](https://image-to-pdf-xk4h.onrender.com/)    |
 | 6   | Daily Task List              | Plan for dealy task                | Next.js, tailwind, Localstorage   | [Live 🔗](https://todo-list-daily-task.onrender.com/) |
-| 7   | Url Shortner                 | Sort your long url                 | Basic frontend, Node.js, Mongodb  | [Live 🔗](https://url-shortener-q6nt.onrender.com/)       |
+| 7   | Url Shortner                 | Sort your long url                 | Basic frontend, Node.js, Mongodb  | [Live 🔗](https://url-shortener-q6nt.onrender.com/)   |
+| 8   | Text to Speech               | Convert text into real voice       | Html, Css, Js                     | [Live 🔗](https://text-to-speech-app.onrender.com/)   |
 ---
 
 ## 🧠 Why This Challenge?

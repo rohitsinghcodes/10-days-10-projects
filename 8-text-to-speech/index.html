@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Text to Speech App - Convert Text into Voice</title>
+    <meta name="description"
+        content="A fast, responsive, and modern web app that converts your typed text into spoken audio using SpeechSynthesis. Built by Rohit Singh." />
+    <meta name="keywords"
+        content="text to speech, speech synthesis, TTS, voice generator, javascript TTS, web app, Rohit Singh, rohitsinghcodes" />
+    <meta name="author" content="Rohit Singh" />
+
+    <link rel="canonical" href="https://text-to-speech-app.onrender.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Text to Speech App - Convert Text into Voice" />
+    <meta property="og:description"
+        content="A fast, responsive, and modern web app that converts text into speech using your browser." />
+    <meta property="og:url" content="https://text-to-speech-app.onrender.com/" />
+    <meta property="og:type" content="website" />
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./public/favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+
+    <!-- Fonts & Styles -->
+    <link rel="stylesheet" href="./public/style.css" />
+</head>
+
+
+<body>
+    <div class="app">
+        <h1>🗣️ Text to Speech</h1>
+        <textarea id="text" placeholder="Enter your text here..."></textarea>
+
+        <div class="controls">
+            <label for="rate">Speed:</label>
+            <select id="rate">
+                <option value="0.5">0.5x</option>
+                <option value="0.75">0.75x</option>
+                <option value="1" selected>1x (Normal)</option>
+                <option value="1.25">1.25x</option>
+                <option value="1.5">1.5x</option>
+                <option value="2">2x</option>
+            </select>
+        </div>
+
+        <div class="btn-group">
+            <button onclick="speakText()">🔊 Speak</button>
+            <button onclick="stopSpeech()">🛑 Stop</button>
+        </div>
+    </div>
+
+    <footer class="bottom-right-footer">
+        <p>Made by <a href="https://rohitsinghcodes-portfolio.onrender.com" target="_blank">Rohit Singh</a></p>
+        <div class="social-icons">
+            <a href="https://github.com/rohitsinghcodes" target="_blank" aria-label="GitHub">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="22" />
+            </a>
+            <a href="https://www.linkedin.com/in/rohitsinghcodes" target="_blank" aria-label="LinkedIn">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                    width="22" />
+            </a>
+            <a href="https://x.com/rohitsinghcodes" target="_blank" aria-label="X (Twitter)">
+                <img src="https://img.icons8.com/ios-filled/22/ffffff/twitterx--v1.png" alt="X" width="22" />
+            </a>
+            <a href="https://www.instagram.com/rohitsinghcodes" target="_blank" aria-label="Instagram">
+                <img src="https://img.icons8.com/ios-filled/22/ffffff/instagram-new--v1.png" alt="Instagram"
+                    width="22" />
+            </a>
+            <a href="https://www.facebook.com/rohitsinghcodes" target="_blank" aria-label="Facebook">
+                <img src="https://img.icons8.com/ios-filled/22/ffffff/facebook--v1.png" alt="Facebook" width="22" />
+            </a>
+        </div>
+
+    </footer>
+
+
+    <script src="./public/script.js"></script>
+</body>
+
+</html>
