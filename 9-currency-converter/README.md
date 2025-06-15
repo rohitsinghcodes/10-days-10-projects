@@ -4,7 +4,7 @@ A modern, real-time currency converter built using **React**, **Tailwind CSS**, 
 
 ## 🌐 Live Demo
 
-🔗 [View Project](https://currency-converter.onrender.com/)
+🔗 [View Project](https://currency-converter-cuvx.onrender.com)
 
 ## 🌐 Portfolio
 
