@@ -19,7 +19,7 @@ Each project is unique and built with love 💻❤️
 | 7   | Url Shortner                 | Sort your long url                 | Basic frontend, Node.js, Mongodb  | [Live 🔗](https://url-shortener-q6nt.onrender.com/)   |
 | 8   | Text to Speech               | Convert text into real voice       | Html, Css, Js                     | [Live 🔗](https://text-to-speech-app-0hh5.onrender.com/)|
 | 9   | currency converter           | Real time Currency Exchange        | React, Tailwind, CurrencyAPI      | [Live 🔗](https://currency-converter-cuvx.onrender.com)|
-| 10  | Img Size Reducer             | Reducer your image size            | Python, Flask, Pillow, Javascript | [Live 🔗](https://your-live-site-link.com)|
+| 10  | Img Size Reducer             | Reducer your image size            | Python, Flask, Pillow, Javascript | [Live 🔗](https://img-size-remover.onrender.com)       |
 ---
 
 ## 🧠 Why This Challenge?

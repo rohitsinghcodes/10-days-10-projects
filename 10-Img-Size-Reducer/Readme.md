@@ -2,7 +2,7 @@
 
 A simple and lightweight web app to compress and reduce the size of images (JPG/PNG) by targeting a custom size in KB. Built with a **Python Flask backend** and **HTML/CSS/JS frontend**, this tool helps users upload, compress, and download images seamlessly.
 
-🔗 **Live Project:** [Live](https://your-live-site-link.com)  
+🔗 **Live Project:** [Live](https://img-size-remover.onrender.com)  
 🌐 **Portfolio:** [Live](https://rohitsinghcodes-portfolio.onrender.com)
 
 ---
@@ -21,7 +21,7 @@ A simple and lightweight web app to compress and reduce the size of images (JPG/
 
 ## 🧾 How to Use
 
-1. Go to the live app: [Live](https://your-live-site-link.com)
+1. Go to the live app: [Live](https://img-size-remover.onrender.com)
 2. Upload an image
 3. Enter your desired size in KB (e.g. 200)
 4. Click "Compress"

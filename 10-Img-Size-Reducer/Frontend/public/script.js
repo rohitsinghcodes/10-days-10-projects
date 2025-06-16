@@ -16,7 +16,7 @@ form.addEventListener('submit', async (e) => {
   resultDiv.innerHTML = "⏳ Compressing image...";
 
   try {
-    const response = await fetch('https://img-size-remover-backendonrender.com/reduce', {
+    const response = await fetch('https://img-size-remover-backend.onrender.com/reduce', {
       method: 'POST',
       body: formData
     });
