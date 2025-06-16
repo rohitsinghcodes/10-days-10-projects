@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: image-size-reducer
-    env: python
-    buildCommand: |
-      apt-get update && apt-get install -y libjpeg-dev zlib1g-dev
-      pip install -r requirements.txt
-    startCommand: python app.py
